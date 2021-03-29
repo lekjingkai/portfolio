@@ -1,0 +1,12 @@
+.skillContainer{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+@media screen and (max-width: 600px) {
+    .skillContainer{
+        justify-content: center;
+    }
+  }

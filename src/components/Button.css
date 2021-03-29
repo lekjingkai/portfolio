@@ -1,0 +1,41 @@
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .btn {
+    background-color: #0c1112; 
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    border-radius: 5px;
+    margin: 5px 10px; 
+  }
+
+  .btn img{
+      margin-right: 5px;
+      margin-top: -2px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #000000;
+    transition: 0.3s;
+  }
+
+  .btnLogos{
+    vertical-align: middle;
+      width: 20px;
+      height: 20px;
+  }

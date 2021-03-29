@@ -1,0 +1,12 @@
+.contentContainer{
+    display: inline-block;
+    text-align: left;
+    min-width: 320px;
+    width:90%;
+    padding: 20px;
+}
+
+.contentTitle{
+    color: #77abb7  ;
+margin:0;
+}
