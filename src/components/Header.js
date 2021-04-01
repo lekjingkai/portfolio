@@ -18,8 +18,8 @@ const Header = () => {
             </h2>
           </div>
         </div>
-        <h1 className="headerText headerDesc">Front-end developer</h1>
-        <p className="headerText">I have a passion to code aesthetically</p>
+        <h1 className="headerDesc">Front-end developer</h1>
+        <p className="headerText">Hello there! I'm an aspiring front-end developer who wants to provide high-impact modern web applications. Passionate about learning new things to increase the quality of my web applications.</p>
       </div>
     );
 }
