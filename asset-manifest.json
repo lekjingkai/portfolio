@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.45b9508a.chunk.css",
-    "main.js": "/portfolio/static/js/main.66680b95.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.66680b95.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a42c2b69.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a42c2b69.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5553807b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5553807b.js.map",
     "static/js/2.7b88b7a0.chunk.js": "/portfolio/static/js/2.7b88b7a0.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/css-icon.6f0c0d3f.png": "/portfolio/static/media/css-icon.6f0c0d3f.png",
     "static/media/html-icon.fa7153f2.png": "/portfolio/static/media/html-icon.fa7153f2.png",
     "static/media/javascript-icon.bac5496c.png": "/portfolio/static/media/javascript-icon.bac5496c.png",
-    "static/media/long-wallpaper.bfe6f55c.jpg": "/portfolio/static/media/long-wallpaper.bfe6f55c.jpg",
-    "static/media/react-icon.80045de7.png": "/portfolio/static/media/react-icon.80045de7.png"
+    "static/media/react-icon.80045de7.png": "/portfolio/static/media/react-icon.80045de7.png",
+    "static/media/travel-picture.41092b6b.jpg": "/portfolio/static/media/travel-picture.41092b6b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5553807b.js",
     "static/js/2.7b88b7a0.chunk.js",
     "static/css/main.45b9508a.chunk.css",
-    "static/js/main.66680b95.chunk.js"
+    "static/js/main.a42c2b69.chunk.js"
   ]
 }
