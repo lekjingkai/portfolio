@@ -1,0 +1,27 @@
+[
+    {
+      "action": [
+        {
+          "id": "0",
+          "image": "src=fsdf",
+          "price": "60$",
+          "name": "cs"
+        },
+        {
+          "id": "1",
+          "image": "src=fsdf",
+          "price": "6$",
+          "name": "whatever"
+        }
+      ],
+  
+      "adventure": [
+        {
+          "id": "10",
+          "image": "src=fsdf",
+          "price": "60$",
+          "name": "Cs"
+        }
+      ]
+    }
+  ]
