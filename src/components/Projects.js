@@ -1,22 +1,43 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/Projects.css";
-import momentumImage from "../assets/momentum-clone.png";
-
-
-
+import { useState, useEffect } from "react";
 const Projects = () => {
+  const [data, setData] = useState([]);
+
+  const getData = () => {
+    fetch(process.env.REACT_APP_JSON_LOCATION)
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setData(data.projects);
+      })
+      .catch((err) => {
+        console.log("Error Reading data " + err);
+      });
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="projectContainer">
-      <ProjectCard
-        githubLink={"https://github.com/lekjingkai/momentum-clone"}
-        projectLink={"https://lekjingkai.github.io/momentum-clone"}
-        imageSrc={momentumImage}
-        projTitle={"Momentum Clone"}
-        projDesc={
-          "A productivity app(Weather, Todo, Search) clone adapted from the Momentum App extension for Chrome(Best viewed on desktop). Made using ReactJS"
-        }
-      />
+      {data && data.length > 0 ? (
+        data.map((item) => (
+          <ProjectCard
+            key={item.id}
+            githubLink={item.github}
+            projectLink={item.link}
+            imageSrc={require(`../assets/${item.image}`).default}
+            projTitle={item.name}
+            projDesc={item.description}
+          />
+        ))
+      ) : (
+        <p>No projects to show!</p>
+      )}
     </div>
   );
 };

@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "name": "HTML",
+      "image": "html-icon.png"
+    },
+    {
+      "id": 1,
+      "name": "CSS",
+      "image": "css-icon.png"
+    },
+    {
+      "id": 2,
+      "name": "Javascript",
+      "image": "javascript-icon.png"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "image": "react-icon.png"
+    },
+    {
+      "id": 4,
+      "name": "REST",
+      "image": "rest-api-icon-white.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "name": "Momentum Clone",
+      "description":  "A productivity app(Weather, Todo, Search) clone adapted from the Momentum App extension for Chrome(Best viewed on desktop). Made using ReactJS",
+      "github": "https://github.com/lekjingkai/momentum-clone",
+      "link": "https://lekjingkai.github.io/momentum-clone",
+      "image": "momentum-clone.png"
+    }
+  ]
+}

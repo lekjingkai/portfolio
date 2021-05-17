@@ -2,19 +2,17 @@ import React from 'react'
 import PropTypes from "prop-types";
 import "../styles/ContentContainer.css"
 
-
-
-const contentContainer = (props) => {
+const ContentContainer = (props) => {
     return (
         <div className="contentContainer">
             <h1 className="contentTitle">{props.title}</h1>
             {props.children}
         </div>
-    )
-}
+    );
+};
 
-contentContainer.propTypes = {
+ContentContainer.propTypes = {
     title: PropTypes.string,
   };
 
-export default contentContainer
+export default ContentContainer

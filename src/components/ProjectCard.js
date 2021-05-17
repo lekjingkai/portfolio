@@ -1,44 +1,47 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-// import "../styles/ProjectCard.css"
 import "../styles/ProjectCard.css"
-import { useState, useEffect } from "react";
 
 const ProjectCard = (props) => {
-    const [hover, setHover] = useState(false);
-
-
     return (
-      <a href={props.projectLink} target="_blank" className="cardContainer">
-        <div class="card">
-          <div class="card-image">
+      <div target="_blank" rel="noreferrer" className="cardContainer">
+        <div className="card">
+          <div className="card-image">
             <div
               className="card-background-img"
               style={{ backgroundImage: `url(${props.imageSrc})` }}
             ></div>
-            <div class="card-content">
-              <div class="card-header">
-                <h2 class="card-title">{props.projTitle}</h2>
+            <div className="card-content">
+              <div className="card-header">
+                <h2 className="card-title">{props.projTitle}</h2>
               </div>
-              <div class="card-body">
+              <div className="card-body">
                 <div className="card-text">
                   <p>{props.projDesc}</p>
                 </div>
                 <div className="card-links">
+                <a
+                    href={props.projectLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="iconButton"
+                  >
+                    Website<i class="fa fa-external-link-square" aria-hidden="true"></i>
+                  </a>
                   <a
                     href={props.githubLink}
                     target="_blank"
+                    rel="noreferrer"
                     className="iconButton"
                   >
-                    Github<i class="fa fa-github" aria-hidden="true"></i>
+                    Github<i className="fa fa-github" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </a>
+      </div>
     );
 }
 
