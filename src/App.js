@@ -40,6 +40,7 @@ function App() {
 
       {/* Footer */}
       <Footer></Footer>
+
     </div>
   );
 }
